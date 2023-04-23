@@ -15,13 +15,13 @@ public class ComparaTexto {
         String txt2 = Scnnr.nexttLine();
 
         so.println("\nComparacoes:");
-        so.println(txt1+" e igual a"+txt2+" "+txt1.equals(t2));
-        so.println(txt1+" e igual a"+txt2+" "+txt1.equalsIgnoreCase(t2));
-        so.println(txt1+" compare a "+txt2+" "+txt1.compareTo(t2));
-        so.println(txt1+" compare a"+txt2+" "+txt1.compareToIgnoreCase(t2));
-
-
-
+        so.println(txt1+" e igual a "+txt2+" "+txt1.equals(txt2));
+        so.println(txt1+" e igual a "+txt2+" "+txt1.equalsIgnoreCase(txt2));
+        so.println(txt1+" compare a "+txt2+" "+txt1.compareTo(txt2));
+        so.println(txt1+" compare a "+txt2+" "+txt1.compareToIgnoreCase(txt2));
+        
+        Scnnr.close();
+        
     }
     
 }
